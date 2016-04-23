@@ -1,0 +1,1324 @@
+# Copyright (C) 2015 Nathan Rice
+# This file is distributed under the same license as the Simple URLs package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WPshed\n"
+"Report-Msgid-Bugs-To: StudioPress <translations@studiopress.com>\n"
+"POT-Creation-Date: 2016-04-18 23:24+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: StudioPress <translations@studiopress.com>\n"
+"Language-Team: English <wpshed@gmail.com>\n"
+"X-Generator: Poedit 1.8.7\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;"
+"_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;"
+"esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"X-Textdomain-Support: yes\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: inc/functions-admin-settings.php:26 inc/functions-admin-widgets.php:17
+msgid "Dismiss this notice."
+msgstr ""
+
+#: inc/functions-admin-settings.php:34
+msgid "Settings Saved!"
+msgstr ""
+
+#: inc/functions-admin-settings.php:57
+msgid "Custom Post Types"
+msgstr ""
+
+#: inc/functions-admin-settings.php:65 inc/functions-admin-settings.php:79
+#: inc/functions-admin-settings.php:91 inc/functions-admin-settings.php:121
+#: inc/functions-admin-settings.php:137 inc/functions-admin-settings.php:153
+#: inc/functions-admin-settings.php:168 inc/functions-admin-settings.php:180
+#: inc/functions-admin-settings.php:192 inc/functions-admin-settings.php:204
+#: inc/functions-admin-settings.php:216 inc/functions-admin-settings.php:228
+#: inc/functions-admin-settings.php:240 inc/functions-admin-settings.php:252
+#: inc/functions-admin-settings.php:264
+msgid "Enable"
+msgstr ""
+
+#: inc/functions-admin-settings.php:66 inc/functions-admin-settings.php:122
+msgid "Portfolio"
+msgstr ""
+
+#: inc/functions-admin-settings.php:67 inc/functions-admin-settings.php:81
+#: inc/functions-admin-settings.php:93
+msgid "Custom Post Type"
+msgstr ""
+
+#: inc/functions-admin-settings.php:70
+msgid "slug"
+msgstr ""
+
+#: inc/functions-admin-settings.php:80 inc/functions-admin-settings.php:138
+msgid "Testimonials"
+msgstr ""
+
+#: inc/functions-admin-settings.php:92 inc/functions-admin-settings.php:154
+msgid "Slides"
+msgstr ""
+
+#: inc/functions-admin-settings.php:99
+msgid "Once you enable a custom post type, please go to"
+msgstr ""
+
+#: inc/functions-admin-settings.php:101
+msgid "Settings - Permalinks"
+msgstr ""
+
+#: inc/functions-admin-settings.php:102
+msgid "and update the permalink structure."
+msgstr ""
+
+#: inc/functions-admin-settings.php:113
+msgid "Custom Widgets"
+msgstr ""
+
+#: inc/functions-admin-settings.php:123 inc/functions-admin-settings.php:139
+#: inc/functions-admin-settings.php:155 inc/functions-admin-settings.php:170
+#: inc/functions-admin-settings.php:182 inc/functions-admin-settings.php:194
+#: inc/functions-admin-settings.php:206 inc/functions-admin-settings.php:218
+#: inc/functions-admin-settings.php:230 inc/functions-admin-settings.php:242
+#: inc/functions-admin-settings.php:254 inc/functions-admin-settings.php:266
+msgid "Widget"
+msgstr ""
+
+#: inc/functions-admin-settings.php:169
+msgid "Featured Posts"
+msgstr ""
+
+#: inc/functions-admin-settings.php:181
+msgid "Featured Page"
+msgstr ""
+
+#: inc/functions-admin-settings.php:193 inc/post-type-testimonials.php:126
+msgid "Author"
+msgstr ""
+
+#: inc/functions-admin-settings.php:205
+msgid "Services"
+msgstr ""
+
+#: inc/functions-admin-settings.php:217
+msgid "Price Table"
+msgstr ""
+
+#: inc/functions-admin-settings.php:229
+msgid "Hero"
+msgstr ""
+
+#: inc/functions-admin-settings.php:241 inc/widgets/image-widget.php:90
+#: inc/widgets/services-widget.php:111
+msgid "Image"
+msgstr ""
+
+#: inc/functions-admin-settings.php:253
+msgid "Social Icons"
+msgstr ""
+
+#: inc/functions-admin-settings.php:265
+msgid "Call To Action"
+msgstr ""
+
+#: inc/functions-admin-settings.php:282
+msgid "Extras"
+msgstr ""
+
+#: inc/functions-admin-settings.php:288
+msgid "Enable Fade-Up effect for widgets."
+msgstr ""
+
+#: inc/functions-admin-settings.php:294
+msgid "Enable Local Scroll script."
+msgstr ""
+
+#: inc/functions-admin-settings.php:296
+msgid "This will enable a smooth navigation to a page ID in the document."
+msgstr ""
+
+#: inc/functions-admin-settings.php:307
+msgid "Portfolio Thumbnail"
+msgstr ""
+
+#: inc/functions-admin-settings.php:309 inc/functions-admin-settings.php:318
+#: inc/functions-admin-settings.php:327
+msgid "Width"
+msgstr ""
+
+#: inc/functions-admin-settings.php:311 inc/functions-admin-settings.php:320
+#: inc/functions-admin-settings.php:329
+msgid "Height"
+msgstr ""
+
+#: inc/functions-admin-settings.php:316
+msgid "Testimonials Thumbnail"
+msgstr ""
+
+#: inc/functions-admin-settings.php:325
+msgid "Slides Thumbnail"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:25
+msgid "Sidebars Saved!"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:89
+msgid "Create custom Sections with Sidebars"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:92
+msgid ""
+"You must have JavaScript enabled in order to use the widget area builder."
+msgstr ""
+
+#: inc/functions-admin-widgets.php:104 inc/functions-admin-widgets.php:105
+#: inc/functions-admin-widgets.php:293 inc/functions-admin-widgets.php:294
+msgid "Add Section"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:109 inc/functions-admin-widgets.php:298
+msgid "Manage Widgets"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:114 inc/functions-admin-widgets.php:303
+msgid "Save Sidebars"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:168 inc/functions-admin-widgets.php:329
+msgid "Text Align"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:169 inc/functions-admin-widgets.php:330
+msgid "Text - Center"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:170 inc/functions-admin-widgets.php:331
+msgid "Text - Left"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:171 inc/functions-admin-widgets.php:332
+msgid "Text - Right"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:175 inc/functions-admin-widgets.php:336
+msgid "Sidebars Wrapper"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:176 inc/functions-admin-widgets.php:337
+msgid "Small Wrapper"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:177 inc/functions-admin-widgets.php:338
+msgid "No Wrapper"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:181 inc/functions-admin-widgets.php:342
+msgid "Add Padding"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:182 inc/functions-admin-widgets.php:343
+msgid "No Padding"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:186 inc/functions-admin-widgets.php:348
+msgid "Add Divider"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:187 inc/functions-admin-widgets.php:347
+msgid "No Divider"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:190 inc/functions-admin-widgets.php:351
+msgid "Custom Class"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:193 inc/functions-admin-widgets.php:354
+msgid "Delete Section"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:225 inc/functions-admin-widgets.php:364
+msgid "Custom Sidebar"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:231 inc/functions-admin-widgets.php:370
+msgid "Sidebar Name"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:236 inc/functions-admin-widgets.php:375
+msgid "full-width"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:237 inc/functions-admin-widgets.php:376
+msgid "one-fourth"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:238 inc/functions-admin-widgets.php:377
+msgid "one-half"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:239 inc/functions-admin-widgets.php:378
+msgid "one-sixth"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:240 inc/functions-admin-widgets.php:379
+msgid "one-third"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:241 inc/functions-admin-widgets.php:380
+msgid "two-fourths"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:242 inc/functions-admin-widgets.php:381
+msgid "two-sixths"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:243 inc/functions-admin-widgets.php:382
+msgid "two-thirds"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:244 inc/functions-admin-widgets.php:383
+msgid "three-fourths"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:245 inc/functions-admin-widgets.php:384
+msgid "three-sixths"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:246 inc/functions-admin-widgets.php:385
+msgid "four-sixths"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:247 inc/functions-admin-widgets.php:386
+msgid "five-sixths"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:251 inc/functions-admin-widgets.php:391
+msgid "no margin"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:252 inc/functions-admin-widgets.php:390
+msgid "margin left"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:256 inc/functions-admin-widgets.php:395
+msgid "Widgets Heading"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:257 inc/functions-admin-widgets.php:396
+msgid "Heading - H1"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:258 inc/functions-admin-widgets.php:397
+msgid "Heading - H2"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:259 inc/functions-admin-widgets.php:398
+msgid "Heading - H3"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:260 inc/functions-admin-widgets.php:399
+msgid "Heading - H4"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:268 inc/functions-admin-widgets.php:407
+msgid "Add Sidebar"
+msgstr ""
+
+#: inc/functions-admin-widgets.php:270 inc/functions-admin-widgets.php:409
+msgid "Delete Sidebar"
+msgstr ""
+
+#: inc/functions-admin.php:18 inc/functions-admin.php:19
+msgid "Theme Extras"
+msgstr ""
+
+#: inc/functions-admin.php:55
+msgid "Are you sure you want to delete this Section?"
+msgstr ""
+
+#: inc/functions-admin.php:56
+msgid "Sorry, you need at least one Section"
+msgstr ""
+
+#: inc/functions-admin.php:57
+msgid "Are you sure you want to delete this Sidebar?"
+msgstr ""
+
+#: inc/functions-admin.php:58
+msgid "Sorry, you need at least one Sidebar"
+msgstr ""
+
+#: inc/functions-admin.php:61
+msgid "Custom Sidebars"
+msgstr ""
+
+#: inc/functions-admin.php:75
+msgid "WPshed Theme Extras"
+msgstr ""
+
+#: inc/functions-admin.php:80
+msgid "Settings"
+msgstr ""
+
+#: inc/functions-admin.php:84
+msgid "Sidebars"
+msgstr ""
+
+#: inc/functions-admin.php:88
+msgid "Themes"
+msgstr ""
+
+#: inc/functions-admin.php:91
+msgid "Tutorials"
+msgstr ""
+
+#: inc/functions-fade-up.php:33
+msgid "Add fade-up effect."
+msgstr ""
+
+#: inc/functions-formatting.php:156
+msgctxt "time difference"
+msgid "seconds"
+msgstr ""
+
+#: inc/functions-formatting.php:160
+#, php-format
+msgctxt "time difference"
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions-formatting.php:161
+#, php-format
+msgctxt "time difference"
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions-formatting.php:162
+#, php-format
+msgctxt "time difference"
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions-formatting.php:163
+#, php-format
+msgctxt "time difference"
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions-formatting.php:164
+#, php-format
+msgctxt "time difference"
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions-formatting.php:165
+#, php-format
+msgctxt "time difference"
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions-formatting.php:166
+#, php-format
+msgctxt "time difference"
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions-formatting.php:191
+msgctxt "separator in time difference"
+msgid "and"
+msgstr ""
+
+#: inc/functions-forms.php:38
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/functions-forms.php:113
+msgid "All Categories"
+msgstr ""
+
+#: inc/functions-forms.php:130
+msgid "No image selected"
+msgstr ""
+
+#: inc/functions-forms.php:131
+msgid "Remove"
+msgstr ""
+
+#: inc/functions-forms.php:132
+msgid "Change Image"
+msgstr ""
+
+#: inc/functions-forms.php:132
+msgid "Select Image"
+msgstr ""
+
+#: inc/functions-shortcodes.php:149 inc/functions-shortcodes.php:257
+#: inc/functions-shortcodes.php:548
+msgid "(no title)"
+msgstr ""
+
+#: inc/functions-shortcodes.php:214
+msgid "Read More..."
+msgstr ""
+
+#: inc/functions-shortcodes.php:575
+msgid "Previous page"
+msgstr ""
+
+#: inc/functions-shortcodes.php:576
+msgid "Next page"
+msgstr ""
+
+#: inc/functions-shortcodes.php:577 inc/widgets/featured-page-widget.php:100
+msgid "Page"
+msgstr ""
+
+#: inc/functions-widgets.php:39
+msgid "Front Page 1"
+msgstr ""
+
+#: inc/functions-widgets.php:50
+msgid "Front Page 2 - Left"
+msgstr ""
+
+#: inc/functions-widgets.php:57
+msgid "Front Page 2 - Middle"
+msgstr ""
+
+#: inc/functions-widgets.php:63
+msgid "Front Page 2 - Right"
+msgstr ""
+
+#: inc/functions-widgets.php:77
+msgid "Front Page 3"
+msgstr ""
+
+#: inc/functions-widgets.php:87
+msgid "Front Page 4"
+msgstr ""
+
+#: inc/post-type-portfolio.php:21
+msgctxt "post type general name"
+msgid "Projects"
+msgstr ""
+
+#: inc/post-type-portfolio.php:22
+msgctxt "post type singular name"
+msgid "Project"
+msgstr ""
+
+#: inc/post-type-portfolio.php:23
+msgctxt "admin menu"
+msgid "Portfolio"
+msgstr ""
+
+#: inc/post-type-portfolio.php:24
+msgctxt "add new on admin bar"
+msgid "Project"
+msgstr ""
+
+#: inc/post-type-portfolio.php:25
+msgctxt "portfolio"
+msgid "Add New"
+msgstr ""
+
+#: inc/post-type-portfolio.php:26
+msgid "Add New Project"
+msgstr ""
+
+#: inc/post-type-portfolio.php:27
+msgid "Edit Project"
+msgstr ""
+
+#: inc/post-type-portfolio.php:28
+msgid "New Project"
+msgstr ""
+
+#: inc/post-type-portfolio.php:29
+msgid "View Projects"
+msgstr ""
+
+#: inc/post-type-portfolio.php:30
+msgid "All Projects"
+msgstr ""
+
+#: inc/post-type-portfolio.php:31
+msgid "Search Projects"
+msgstr ""
+
+#: inc/post-type-portfolio.php:32
+msgid "No Projects found"
+msgstr ""
+
+#: inc/post-type-portfolio.php:33
+msgid "No Projects found in Trash"
+msgstr ""
+
+#: inc/post-type-slides.php:19
+msgctxt "post type general name"
+msgid "Slides"
+msgstr ""
+
+#: inc/post-type-slides.php:20
+msgctxt "post type singular name"
+msgid "Slide"
+msgstr ""
+
+#: inc/post-type-slides.php:21
+msgctxt "admin menu"
+msgid "Slides"
+msgstr ""
+
+#: inc/post-type-slides.php:22
+msgctxt "add new on admin bar"
+msgid "Slide"
+msgstr ""
+
+#: inc/post-type-slides.php:23
+msgctxt "slide"
+msgid "Add New"
+msgstr ""
+
+#: inc/post-type-slides.php:24
+msgid "Add New Slide"
+msgstr ""
+
+#: inc/post-type-slides.php:25
+msgid "Edit Slide"
+msgstr ""
+
+#: inc/post-type-slides.php:26
+msgid "New Slide"
+msgstr ""
+
+#: inc/post-type-slides.php:27
+msgid "View Slide"
+msgstr ""
+
+#: inc/post-type-slides.php:28
+msgid "All Slides"
+msgstr ""
+
+#: inc/post-type-slides.php:29
+msgid "Search Slides"
+msgstr ""
+
+#: inc/post-type-slides.php:30
+msgid "No Slides found"
+msgstr ""
+
+#: inc/post-type-slides.php:31
+msgid "No Slides found in Trash"
+msgstr ""
+
+#: inc/post-type-slides.php:63
+msgid "Slide Categories"
+msgstr ""
+
+#: inc/post-type-slides.php:64
+msgid "Slide Category"
+msgstr ""
+
+#: inc/post-type-slides.php:65
+msgid "Search Slide Categories"
+msgstr ""
+
+#: inc/post-type-slides.php:66
+msgid "All Slide Categories"
+msgstr ""
+
+#: inc/post-type-slides.php:67
+msgid "Parent Slide Category"
+msgstr ""
+
+#: inc/post-type-slides.php:68
+msgid "Parent Slide Category:"
+msgstr ""
+
+#: inc/post-type-slides.php:69
+msgid "Edit Slide Category"
+msgstr ""
+
+#: inc/post-type-slides.php:70
+msgid "Update Slide Category"
+msgstr ""
+
+#: inc/post-type-slides.php:71
+msgid "Add New Slide Category"
+msgstr ""
+
+#: inc/post-type-slides.php:72
+msgid "New Slide Category Name"
+msgstr ""
+
+#: inc/post-type-slides.php:73 inc/post-type-testimonials.php:73
+msgid "Categories"
+msgstr ""
+
+#: inc/post-type-slides.php:96
+msgid "Slide URL and Caption"
+msgstr ""
+
+#: inc/post-type-slides.php:120 inc/widgets/image-widget.php:99
+#: inc/widgets/social-widget.php:298
+msgid "URL"
+msgstr ""
+
+#: inc/post-type-slides.php:122
+msgid "The URL this slide should link to."
+msgstr ""
+
+#: inc/post-type-slides.php:126
+msgid "Caption"
+msgstr ""
+
+#: inc/post-type-slides.php:133
+msgid "Both fields are optional."
+msgstr ""
+
+#: inc/post-type-slides.php:134
+msgid "Upload a featured image to be displayed in the slider."
+msgstr ""
+
+#: inc/post-type-slides.php:135
+msgid "If the URL is set, the image will link to that specific URL."
+msgstr ""
+
+#: inc/post-type-slides.php:136
+msgid "The caption will be displayed on top of the image if is set."
+msgstr ""
+
+#: inc/post-type-slides.php:137
+msgid ""
+"If using multiple sliders, set a slider category and display it in your "
+"post using the following code:"
+msgstr ""
+
+#: inc/post-type-slides.php:139
+msgid "where \"category-name\" must be the name of your category."
+msgstr ""
+
+#: inc/post-type-slides.php:140
+msgid "The above code will display only slides from that specific category."
+msgstr ""
+
+#: inc/post-type-testimonials.php:19
+msgctxt "post type general name"
+msgid "Testimonials"
+msgstr ""
+
+#: inc/post-type-testimonials.php:20
+msgctxt "post type singular name"
+msgid "Testimonial"
+msgstr ""
+
+#: inc/post-type-testimonials.php:21
+msgctxt "admin menu"
+msgid "Testimonials"
+msgstr ""
+
+#: inc/post-type-testimonials.php:22
+msgctxt "add new on admin bar"
+msgid "Testimonial"
+msgstr ""
+
+#: inc/post-type-testimonials.php:23
+msgctxt "testimonial"
+msgid "Add New"
+msgstr ""
+
+#: inc/post-type-testimonials.php:24
+msgid "Add New Testimonial"
+msgstr ""
+
+#: inc/post-type-testimonials.php:25
+msgid "Edit Testimonial"
+msgstr ""
+
+#: inc/post-type-testimonials.php:26
+msgid "New Testimonial"
+msgstr ""
+
+#: inc/post-type-testimonials.php:27
+msgid "View Testimonial"
+msgstr ""
+
+#: inc/post-type-testimonials.php:28
+msgid "All Testimonials"
+msgstr ""
+
+#: inc/post-type-testimonials.php:29
+msgid "Search Testimonials"
+msgstr ""
+
+#: inc/post-type-testimonials.php:30
+msgid "No Testimonials found"
+msgstr ""
+
+#: inc/post-type-testimonials.php:31
+msgid "No Testimonials found in Trash"
+msgstr ""
+
+#: inc/post-type-testimonials.php:63
+msgid "Testimonial Categories"
+msgstr ""
+
+#: inc/post-type-testimonials.php:64
+msgid "Testimonial Category"
+msgstr ""
+
+#: inc/post-type-testimonials.php:65
+msgid "Search Testimonial Categories"
+msgstr ""
+
+#: inc/post-type-testimonials.php:66
+msgid "All Testimonial Categories"
+msgstr ""
+
+#: inc/post-type-testimonials.php:67
+msgid "Parent Testimonial Category"
+msgstr ""
+
+#: inc/post-type-testimonials.php:68
+msgid "Parent Testimonial Category:"
+msgstr ""
+
+#: inc/post-type-testimonials.php:69
+msgid "Edit Testimonial Category"
+msgstr ""
+
+#: inc/post-type-testimonials.php:70
+msgid "Update Testimonial Category"
+msgstr ""
+
+#: inc/post-type-testimonials.php:71
+msgid "Add New Testimonial Category"
+msgstr ""
+
+#: inc/post-type-testimonials.php:72
+msgid "New Testimonial Category Name"
+msgstr ""
+
+#: inc/post-type-testimonials.php:96
+msgid "Testimonial Info"
+msgstr ""
+
+#: inc/post-type-testimonials.php:121 inc/widgets/hero-widget.php:107
+#: inc/widgets/services-widget.php:102
+msgid "Text"
+msgstr ""
+
+#: inc/post-type-testimonials.php:131
+msgid "Author URL"
+msgstr ""
+
+#: inc/widgets/call-to-action-widget.php:29
+msgid "Displays a Call To Action section."
+msgstr ""
+
+#: inc/widgets/call-to-action-widget.php:38
+msgid "Call To Action - WPshed"
+msgstr ""
+
+#: inc/widgets/call-to-action-widget.php:97
+#: inc/widgets/featured-page-widget.php:91
+#: inc/widgets/featured-post-widget.php:104
+#: inc/widgets/featured-post-widget.php:146 inc/widgets/hero-widget.php:98
+#: inc/widgets/image-widget.php:81 inc/widgets/portfolio-widget.php:90
+#: inc/widgets/portfolio-widget.php:123 inc/widgets/price-table-widget.php:94
+#: inc/widgets/services-widget.php:93 inc/widgets/slider-widget.php:83
+#: inc/widgets/slider-widget.php:135 inc/widgets/social-widget.php:179
+#: inc/widgets/testimonial-widget.php:88
+#: inc/widgets/testimonial-widget.php:122
+#: inc/widgets/user-profile-widget.php:102
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/call-to-action-widget.php:106
+#: inc/widgets/price-table-widget.php:116
+msgid "Button Text"
+msgstr ""
+
+#: inc/widgets/call-to-action-widget.php:115
+#: inc/widgets/price-table-widget.php:125
+msgid "Button URL"
+msgstr ""
+
+#: inc/widgets/call-to-action-widget.php:124
+msgid "Button Style"
+msgstr ""
+
+#: inc/widgets/call-to-action-widget.php:129
+#: inc/widgets/call-to-action-widget.php:147 inc/widgets/hero-widget.php:149
+#: inc/widgets/testimonial-widget.php:149
+msgid "Default"
+msgstr ""
+
+#: inc/widgets/call-to-action-widget.php:130
+#: inc/widgets/call-to-action-widget.php:148 inc/widgets/hero-widget.php:154
+msgid "Red"
+msgstr ""
+
+#: inc/widgets/call-to-action-widget.php:131
+#: inc/widgets/call-to-action-widget.php:149 inc/widgets/hero-widget.php:153
+msgid "Blue"
+msgstr ""
+
+#: inc/widgets/call-to-action-widget.php:132
+#: inc/widgets/call-to-action-widget.php:150 inc/widgets/hero-widget.php:152
+msgid "Green"
+msgstr ""
+
+#: inc/widgets/call-to-action-widget.php:133
+#: inc/widgets/call-to-action-widget.php:151 inc/widgets/hero-widget.php:151
+msgid "Gold"
+msgstr ""
+
+#: inc/widgets/call-to-action-widget.php:134
+#: inc/widgets/call-to-action-widget.php:152 inc/widgets/hero-widget.php:150
+#: inc/widgets/testimonial-widget.php:150
+msgid "Gray"
+msgstr ""
+
+#: inc/widgets/call-to-action-widget.php:135
+#: inc/widgets/testimonial-widget.php:151
+msgid "Black"
+msgstr ""
+
+#: inc/widgets/call-to-action-widget.php:142
+msgid "Block Style"
+msgstr ""
+
+#: inc/widgets/featured-page-widget.php:33
+msgid "Displays featured page."
+msgstr ""
+
+#: inc/widgets/featured-page-widget.php:42
+msgid "Featured Page - WPshed"
+msgstr ""
+
+#: inc/widgets/featured-page-widget.php:111
+#: inc/widgets/featured-post-widget.php:179
+msgid "Show Featured Image"
+msgstr ""
+
+#: inc/widgets/featured-page-widget.php:120
+#: inc/widgets/featured-post-widget.php:188
+msgid "Image Size"
+msgstr ""
+
+#: inc/widgets/featured-page-widget.php:130
+#: inc/widgets/featured-post-widget.php:198
+#: inc/widgets/services-widget.php:129
+msgid "Image Alignment"
+msgstr ""
+
+#: inc/widgets/featured-page-widget.php:135
+#: inc/widgets/featured-post-widget.php:203
+#: inc/widgets/services-widget.php:134
+msgid "None"
+msgstr ""
+
+#: inc/widgets/featured-page-widget.php:136
+#: inc/widgets/featured-post-widget.php:204
+#: inc/widgets/services-widget.php:135
+#: inc/widgets/user-profile-widget.php:143
+msgid "Left"
+msgstr ""
+
+#: inc/widgets/featured-page-widget.php:137
+#: inc/widgets/featured-post-widget.php:205
+#: inc/widgets/services-widget.php:136
+#: inc/widgets/user-profile-widget.php:144
+msgid "Right"
+msgstr ""
+
+#: inc/widgets/featured-page-widget.php:138
+#: inc/widgets/featured-post-widget.php:206
+#: inc/widgets/services-widget.php:137
+msgid "Center"
+msgstr ""
+
+#: inc/widgets/featured-page-widget.php:147
+msgid "Show Page Title"
+msgstr ""
+
+#: inc/widgets/featured-page-widget.php:156
+msgid "Show Page Content"
+msgstr ""
+
+#: inc/widgets/featured-page-widget.php:165
+msgid "Content Character Limit"
+msgstr ""
+
+#: inc/widgets/featured-page-widget.php:174
+msgid "More Text"
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:33
+#: inc/widgets/user-profile-widget.php:26
+msgid "Read More"
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:38
+msgid "Displays featured posts."
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:47
+msgid "Featured Posts - WPshed"
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:113
+#: inc/widgets/testimonial-widget.php:106
+msgid "Category"
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:122
+msgid "Number of Posts"
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:131
+msgid "Number of Posts to Offset"
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:140
+#: inc/widgets/portfolio-widget.php:117 inc/widgets/slider-widget.php:129
+#: inc/widgets/testimonial-widget.php:116
+msgid "Order By"
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:145
+#: inc/widgets/portfolio-widget.php:122 inc/widgets/slider-widget.php:134
+#: inc/widgets/testimonial-widget.php:121
+msgid "Date"
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:147
+#: inc/widgets/portfolio-widget.php:124 inc/widgets/slider-widget.php:136
+#: inc/widgets/testimonial-widget.php:123
+msgid "Comment Count"
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:148
+#: inc/widgets/portfolio-widget.php:125 inc/widgets/slider-widget.php:137
+#: inc/widgets/testimonial-widget.php:124
+msgid "Random"
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:155
+#: inc/widgets/portfolio-widget.php:132 inc/widgets/slider-widget.php:144
+#: inc/widgets/testimonial-widget.php:131
+msgid "Sort Order"
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:160
+#: inc/widgets/portfolio-widget.php:137 inc/widgets/slider-widget.php:149
+#: inc/widgets/testimonial-widget.php:136
+msgid "Descending (3, 2, 1)"
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:161
+#: inc/widgets/portfolio-widget.php:138 inc/widgets/slider-widget.php:150
+#: inc/widgets/testimonial-widget.php:137
+msgid "Ascending (1, 2, 3)"
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:168
+msgid "Exclude Sticky Posts"
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:215
+msgid "Show Post Title"
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:224
+msgid "Content Type"
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:229
+msgid "Show Content"
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:230
+msgid "Show Excerpt"
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:231
+msgid "Show Content Limit"
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:232
+msgid "No Content"
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:239
+msgid "Limit content to (characters)"
+msgstr ""
+
+#: inc/widgets/featured-post-widget.php:248
+msgid "More Text (if applicable)"
+msgstr ""
+
+#: inc/widgets/hero-widget.php:30
+msgid "Displays a Hero section."
+msgstr ""
+
+#: inc/widgets/hero-widget.php:39
+msgid "Hero - WPshed"
+msgstr ""
+
+#: inc/widgets/hero-widget.php:116
+msgid "Text Size"
+msgstr ""
+
+#: inc/widgets/hero-widget.php:121 inc/widgets/hero-widget.php:135
+msgid "Regular"
+msgstr ""
+
+#: inc/widgets/hero-widget.php:122 inc/widgets/hero-widget.php:136
+msgid "Large"
+msgstr ""
+
+#: inc/widgets/hero-widget.php:123 inc/widgets/hero-widget.php:137
+msgid "Extra Large"
+msgstr ""
+
+#: inc/widgets/hero-widget.php:130
+msgid "Padding"
+msgstr ""
+
+#: inc/widgets/hero-widget.php:144
+msgid "Style"
+msgstr ""
+
+#: inc/widgets/hero-widget.php:161
+msgid "Background Image"
+msgstr ""
+
+#: inc/widgets/image-widget.php:27
+msgid "Displays a Image."
+msgstr ""
+
+#: inc/widgets/image-widget.php:36
+msgid "Image - WPshed"
+msgstr ""
+
+#: inc/widgets/portfolio-widget.php:32
+msgid "Displays Projects by Category."
+msgstr ""
+
+#: inc/widgets/portfolio-widget.php:41
+msgid "Portfolio - WPshed"
+msgstr ""
+
+#: inc/widgets/portfolio-widget.php:99
+msgid "Number of posts"
+msgstr ""
+
+#: inc/widgets/portfolio-widget.php:108
+msgid "Number of columns"
+msgstr ""
+
+#: inc/widgets/price-table-widget.php:36
+msgid "Displays a Price Table."
+msgstr ""
+
+#: inc/widgets/price-table-widget.php:45
+msgid "Price Table - WPshed"
+msgstr ""
+
+#: inc/widgets/price-table-widget.php:105
+msgid "Item"
+msgstr ""
+
+#: inc/widgets/price-table-widget.php:134
+msgid "Featured Price Table"
+msgstr ""
+
+#: inc/widgets/services-widget.php:29
+msgid "Displays a Services section."
+msgstr ""
+
+#: inc/widgets/services-widget.php:38
+msgid "Services - WPshed"
+msgstr ""
+
+#: inc/widgets/services-widget.php:120
+msgid "Image URL"
+msgstr ""
+
+#: inc/widgets/slider-widget.php:31
+msgid "Displays Slides by Category."
+msgstr ""
+
+#: inc/widgets/slider-widget.php:40
+msgid "Slider - WPshed"
+msgstr ""
+
+#: inc/widgets/slider-widget.php:92
+msgid "Number of slides"
+msgstr ""
+
+#: inc/widgets/slider-widget.php:101
+msgid "Slides Category"
+msgstr ""
+
+#: inc/widgets/slider-widget.php:111
+msgid "Show slides from posts (featured images)"
+msgstr ""
+
+#: inc/widgets/slider-widget.php:120
+msgid "Posts Category"
+msgstr ""
+
+#: inc/widgets/social-widget.php:50
+msgid "Displays Social Media Icons."
+msgstr ""
+
+#: inc/widgets/social-widget.php:59
+msgid "Social Icons - WPshed"
+msgstr ""
+
+#: inc/widgets/social-widget.php:188
+msgid "Open links in new window"
+msgstr ""
+
+#: inc/widgets/social-widget.php:197
+msgid "Icon Size (px)"
+msgstr ""
+
+#: inc/widgets/social-widget.php:206
+msgid "Icon Border Radius (px)"
+msgstr ""
+
+#: inc/widgets/social-widget.php:215
+msgid "Border Width (px)"
+msgstr ""
+
+#: inc/widgets/social-widget.php:224
+msgid "Alignment"
+msgstr ""
+
+#: inc/widgets/social-widget.php:229
+msgid "Align Left"
+msgstr ""
+
+#: inc/widgets/social-widget.php:230
+msgid "Align Center"
+msgstr ""
+
+#: inc/widgets/social-widget.php:231
+msgid "Align Right"
+msgstr ""
+
+#: inc/widgets/social-widget.php:240
+msgid "Icon Color"
+msgstr ""
+
+#: inc/widgets/social-widget.php:249
+msgid "Icon Hover Color"
+msgstr ""
+
+#: inc/widgets/social-widget.php:258
+msgid "Background Color"
+msgstr ""
+
+#: inc/widgets/social-widget.php:267
+msgid "Background Hover Color"
+msgstr ""
+
+#: inc/widgets/social-widget.php:276
+msgid "Border Hover Color"
+msgstr ""
+
+#: inc/widgets/social-widget.php:285
+msgid "Border Color"
+msgstr ""
+
+#: inc/widgets/testimonial-widget.php:30
+msgid "Displays Testimonials by Category."
+msgstr ""
+
+#: inc/widgets/testimonial-widget.php:39
+msgid "Testimonial - WPshed"
+msgstr ""
+
+#: inc/widgets/testimonial-widget.php:97
+msgid "Number of testimonials"
+msgstr ""
+
+#: inc/widgets/testimonial-widget.php:144
+msgid "Color"
+msgstr ""
+
+#: inc/widgets/user-profile-widget.php:31
+msgid "Displays user profile block"
+msgstr ""
+
+#: inc/widgets/user-profile-widget.php:40
+msgid "User Profile - WPshed"
+msgstr ""
+
+#: inc/widgets/user-profile-widget.php:111
+msgid "Select a user"
+msgstr ""
+
+#: inc/widgets/user-profile-widget.php:118
+msgid "Small - 45px"
+msgstr ""
+
+#: inc/widgets/user-profile-widget.php:119
+msgid "Medium - 65px"
+msgstr ""
+
+#: inc/widgets/user-profile-widget.php:120
+msgid "Large - 85px"
+msgstr ""
+
+#: inc/widgets/user-profile-widget.php:121
+msgid "Extra Large - 125px"
+msgstr ""
+
+#: inc/widgets/user-profile-widget.php:128
+msgid "Gravatar Size"
+msgstr ""
+
+#: inc/widgets/user-profile-widget.php:138
+msgid "Gravatar Alignment"
+msgstr ""
+
+#: inc/widgets/user-profile-widget.php:151
+msgid "Author Description"
+msgstr ""
+
+#: inc/widgets/user-profile-widget.php:160
+msgid "Choose your extended \"About Me\" page."
+msgstr ""
+
+#: inc/widgets/user-profile-widget.php:169
+msgid "\"About Me\" page link text"
+msgstr ""

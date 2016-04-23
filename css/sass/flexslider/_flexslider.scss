@@ -1,0 +1,352 @@
+/*!
+ * jQuery FlexSlider v2.6.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 and later license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ *
+ */
+
+/* Fonts
+--------------------------------------------- */
+
+.flex-direction-nav a:before,
+.flex-pauseplay a:before {
+    display:                    inline-block;
+    width:                      inherit;
+    height:                     inherit;
+    font-size:                  inherit;
+    line-height:                1;
+    font-family:                "Genericons";
+    text-decoration:            inherit;
+    font-weight:                normal;
+    font-style:                 normal;
+    vertical-align:             top;
+    text-align:                 center;
+    @include                    transition( color .1s ease-in 0 );
+    -webkit-font-smoothing:     antialiased;
+    -moz-osx-font-smoothing:    grayscale;
+}
+
+/* Resets
+--------------------------------------------- */
+
+.flex-container a:hover,
+.flex-slider a:hover {
+    outline:                 none;
+}
+
+.flexslider {
+
+    ul.slides,
+    ul.slides > li,
+    ol.flex-control-nav,
+    ul.flex-direction-nav,
+    ul.flex-direction-nav > li {
+        margin:             0;
+        padding:            0;
+        list-style:         none;
+    }
+
+}
+
+.flex-pauseplay span {
+    text-transform: capitalize;
+}
+
+/* Base Styles
+--------------------------------------------- */
+
+.flexslider {
+    margin:                 0;
+    padding:                0;
+
+    .slides > li {
+        display:            none;
+        -webkit-backface-visibility: hidden;
+    }
+
+    .slides img {
+        width:              100%;
+        display:            block;
+    }
+
+    .slides:after {
+        content:            "\0020";
+        display:            block;
+        clear:              both;
+        visibility:         hidden;
+        line-height:        0;
+        height:             0;
+    }
+
+    a, a:hover, li {
+        text-decoration:    none !important;
+        border:             none !important;
+    }
+}
+
+html[xmlns] .flexslider .slides {
+    display:                block;
+}
+* html .flexslider .slides {
+    height:                 1%;
+}
+.no-js .flexslider .slides > li:first-child {
+    display:                block;
+}
+
+/* Default Theme
+--------------------------------------------- */
+
+.flexslider {
+    margin:                 0 0 60px;
+    background:             #ffffff;
+    border:                 0;
+    position:               relative;
+    zoom:                   1;
+
+    .slides {
+        zoom: 1;
+
+        li {
+            position:       relative;
+        }
+
+        img {
+            height:         auto;
+            -moz-user-select: none;
+        }
+    }
+}
+
+.flex-viewport {
+    max-height:             2000px;
+    @include                transition( all 1s ease );
+}
+
+.loading .flex-viewport {
+    max-height:             300px;
+}
+
+.carousel li {
+    margin-right:           5px;
+}
+
+.flex-direction-nav {
+    *height: 0;
+
+    a {
+        text-decoration:    none;
+        display:            block;
+        width:              40px;
+        height:             40px;
+        margin:             -20px 0 0;
+        position:           absolute;
+        top:                50%;
+        z-index:            10;
+        overflow:           hidden;
+        opacity:            0;
+        cursor:             pointer;
+        color:              rgba(0, 0, 0, 0.8);
+        text-shadow:        1px 1px 0 rgba(255, 255, 255, 0.3);
+        @include            transition( all 0.3s ease-in-out );
+
+        &:before {
+            font-size:      40px;
+            content:        '\f503';
+            color:          rgba(0, 0, 0, 0.8);
+            text-shadow:    1px 1px 0 rgba(255, 255, 255, 0.3);
+        }
+    }
+
+    a.flex-next:before {
+        content:            '\f501';
+    }
+
+    .flex-prev {
+        left:               -50px;
+    }
+
+    .flex-next {
+        right:              -50px;
+        text-align:         right;
+    }
+
+}
+
+.flexslider {
+
+    &:hover {
+
+        .flex-direction-nav {
+
+            .flex-prev {
+                opacity:    0.7;
+                left:       10px;
+            }
+
+            .flex-prev:hover {
+                opacity:    1;
+            }
+
+            .flex-next {
+                opacity:    0.7;
+                right:      10px;
+            }
+
+            .flex-next:hover {
+                opacity:    1;
+            }
+
+        }
+
+    }
+
+}
+
+.flex-direction-nav .flex-disabled {
+    opacity:                0!important;
+    filter:                 alpha(opacity=0);
+    cursor:                 default;
+    z-index:                -1;
+}
+
+.flex-pauseplay {
+
+    a {
+        display:            block;
+        width:              20px;
+        height:             20px;
+        position:           absolute;
+        bottom:             5px;
+        left:               10px;
+        opacity:            0.8;
+        z-index:            10;
+        overflow:           hidden;
+        cursor:             pointer;
+        color:              #000;
+
+        &:before {
+            font-size:      20px;
+            content:        '\f448';
+        }
+
+        &:hover {
+            opacity:        1;
+        }
+    }
+
+    a.flex-play:before {
+        content:            '\f452';
+    }
+
+}
+
+.flex-control-nav {
+    width:                  100%;
+    position:               absolute;
+    bottom:                 -50px;
+    text-align:             center;
+
+    li {
+        margin:             0 6px;
+        display:            inline-block;
+        zoom:               1;
+        *display:           inline;
+    }
+}
+
+.flex-control-paging li {
+
+    a {
+        width:              11px;
+        height:             11px;
+        display:            block;
+        background:         #666;
+        background:         rgba(0, 0, 0, 0.2);
+        cursor:             pointer;
+        text-indent:        -9999px;
+        @include            border-radius( 20px );
+        @include            box-shadow( inset 0 0 3px rgba(0, 0, 0, 0.3) );
+
+        &:hover {
+            background:     #555;
+            background:     rgba(0, 0, 0, 0.5);
+        }
+    }
+
+    a.flex-active {
+        background:         #555;
+        background:         rgba(0, 0, 0, 0.5);
+        cursor:             default;
+    }
+
+}
+
+.flex-control-thumbs {
+    margin:                 5px 0 0;
+    position:               static;
+    overflow:               hidden;
+
+    li {
+        width:              25%;
+        float:              left;
+        margin:             0;
+    }
+
+    img {
+        width:              100%;
+        height:             auto;
+        display:            block;
+        opacity:            .7;
+        cursor:             pointer;
+        -moz-user-select:   none;
+        @include            transition( all 1s ease );
+
+        &:hover {
+            opacity:        1;
+        }
+    }
+
+    .flex-active {
+        opacity:            1;
+        cursor:             default;
+    }
+}
+
+h3.flex-caption {
+    position:               absolute;
+    z-index:                2;
+    padding:                2%;
+    left:                   0;
+    bottom:                 0;
+    background:             rgba(0,0,0,.4);
+    color:                  #fff;
+    text-shadow:            0 -1px 0 rgba(0,0,0,.3);
+    @include                font-size(22);
+
+    a {
+        color:              #fff !important;
+    }
+}
+
+/* Responsive
+--------------------------------------------- */
+
+@media screen and (max-width: 860px) {
+    .flex-direction-nav .flex-prev {
+        opacity:            1;
+        left:               10px;
+    }
+    .flex-direction-nav .flex-next {
+        opacity:            1;
+        right:              10px;
+    }
+    .flex-caption {
+        display:            none;
+    }
+}

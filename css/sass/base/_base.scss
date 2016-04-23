@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+// Mobile First Breakpoints
+$small-screen:      		 	768px;
+$medium-screen:     		 	992px;
+$large-screen:      		 	1200px;
+
+// Grid
+$grid-width-mobile:				95%;
+$grid-width-small:				750px;
+$grid-width-medium:				970px;
+$grid-width-large:				1200px;
+
+// Colors
+$primary-color:               	#1e73be;
+
+$gray-dark:						#323a45;
+$gray:							#5b616b;
+$gray-light:					#aeb0b5;
+$gray-lighter:					#d6d7d9;
+$gray-lightest:					#f1f1f1;
+
+$gold:							#fdb81e;
+$gold-light:					#f9c642;
+$gold-lighter:					#fad980;
+$gold-lightest:					#fff1d2;
+
+$green:							#2e8540;
+$green-light:					#4aa564;
+$green-lighter:					#94bfa2;
+$green-lightest:				#e7f4e4;
+
+$blue:							#1e73be;
+$blue-light:					#4773aa;
+$blue-lighter:					#8ba6ca;
+$blue-lightest:					#dce4ef;
+
+$red:							#c0392b;
+$red-light:						#cd2026;
+$red-lighter:					#e59393;
+$red-lightest:					#f9dede;

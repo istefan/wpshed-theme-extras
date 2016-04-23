@@ -1,0 +1,338 @@
+@-ms-viewport {
+    width:              device-width;
+}
+
+embed,
+iframe,
+img,
+object,
+video,
+.wp-caption {
+    max-width:              100%;
+}
+
+img {
+    height:                 auto;
+}
+
+.aligncenter img {
+    margin-left:            auto;
+    margin-right:           auto;
+    display:                block;
+}
+
+.alignleft {
+    display:                inline;
+    float:                  left;
+    margin-right:           24px;
+}
+
+.alignright {
+    display:                inline;
+    float:                  right;
+    margin-left:            24px;
+}
+
+.aligncenter {
+    clear:                  both;
+    @include                center-block;
+}
+
+.text-centered {
+    text-align:             center;
+}
+
+.text-left {
+    text-align:             left;
+}
+
+.text-right {
+    text-align:             right;
+}
+
+/* Clear Fix
+--------------------------------------------- */
+
+.clear:before,
+.clear:after,
+.wte-wrap:before,
+.wte-wrap:after,
+.wte-section:before,
+.wte-section:after {
+    @include clearfix;
+}
+
+.clear:after,
+.wte-wrap:after,
+.wte-section:after {
+    @include clearfix-after;
+}
+
+/* Body Fade In Effect
+--------------------------------------------- */
+
+body.fadein {
+    -webkit-animation: fadein 1s;
+       -moz-animation: fadein 1s;
+        -ms-animation: fadein 1s;
+         -o-animation: fadein 1s;
+            animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Widget Sections
+--------------------------------------------- */
+
+.wte-widget-section {
+    padding:            30px 0;
+    margin:             0 auto;
+
+    p:last-child,
+    li:last-child {
+        margin-bottom:  0;
+    }
+
+    .wte-button {
+        margin-bottom:  10px;
+    }
+}
+
+@media (min-width: $medium-screen) {
+
+    .wte-widget-section {
+        padding:        80px 0;
+        margin:         0 auto;
+
+        .wte-button {
+            margin-bottom: 0;
+        }
+    }
+
+}
+
+.wte-section {
+    .widget {
+        margin-bottom:  40px;
+    }
+    .widget:last-child {
+        margin-bottom:  0;
+    }
+}
+
+/* Portfolio Posts
+--------------------------------------------- */
+
+body .portfolio-post {
+    margin-bottom:          40px;
+}
+
+/* Content Boxes
+--------------------------------------------- */
+ 
+.content-box {
+    margin-bottom:          30px;
+    overflow:               hidden;
+    padding:                30px;
+
+    & p:last-child,
+    & ul:last-child,
+    & ol:last-child {
+        margin-bottom:      0;
+    }
+
+}
+ 
+.cb-blue {
+    background-color:       #d8ecf7;
+    border:                 1px solid #afcde3;
+}
+ 
+.cb-gray {
+    background-color:       #e2e2e2;
+    border:                 1px solid #bdbdbd;
+}
+ 
+.cb-green {
+    background-color:       #d9edc2;
+    border:                 1px solid #b2ce96;
+}
+ 
+.cb-purple {
+    background-color:       #e2e2f9;
+    border:                 1px solid #bebde9;
+}
+ 
+.cb-red {
+    background-color:       #f9dbdb;
+    border:                 1px solid #e9b3b3;
+}
+ 
+.cb-gold {
+    background-color:       #fef5c4;
+    border:                 1px solid #fadf98;
+}
+
+.inline-icon.genericon {
+    font-size:              inherit;
+    line-height:            inherit;
+}
+
+.divider {
+    border-bottom:          1px solid #ddd;
+    clear:                  both;
+    width:                  70%;
+    margin:                 auto;
+    margin-bottom:          30px;
+    padding-top:            20px;
+    position:               relative;
+
+    .divider-inside {
+        width:              8px;
+        height:             8px;
+        position:           absolute;
+        left:               50%;
+        border:             2px solid #ddd;
+        background-color:   #fff;
+        margin-left:        -4px;
+        margin-top:         -4px;
+        border-radius:      4px;
+    }
+}
+
+/* Testimonials
+--------------------------------------------- */
+
+img.testimonial-thumbnail {
+    display:                block;
+    margin:                 0 auto;
+    @include                border-radius(50%);
+    margin-bottom:          40px;
+}
+
+.testimonial {
+    background:             #fff;
+    border:                 1px solid #ddd;
+    color:                  #888;
+    padding:                20px;
+    position:               relative;
+    margin-bottom:          30px;
+
+    &:after, &:before {
+        top:                100%;
+        left:               50%;
+        border:             solid transparent;
+        content:            " ";
+        height:             0;
+        width:              0;
+        position:           absolute;
+        pointer-events:     none;
+    }
+
+    &:after {
+        border-color:       transparent;
+        border-top-color:   #fff;
+        border-width:       14px;
+        margin-left:        -14px;
+    }
+    &:before {
+        border-color:       transparent;
+        border-top-color:   #ddd;
+        border-width:       16px;
+        margin-left:        -16px;
+    }
+
+    strong {
+        color:              #333; 
+        padding:            10px 0 0;   
+    }
+
+    & p:last-child,
+    & ul:last-child,
+    & ol:last-child {
+        margin-bottom:      0;
+    }
+
+    &.q-gray {
+        background:         #f2f2f2;
+        border:             1px solid #ddd;
+        color:              #333;  
+ 
+        &:after {
+            border-top-color: #f2f2f2;
+        }
+        &:before {
+            border-top-color: #ddd;
+        }
+    }
+
+    &.q-black {
+        background:         #121212;
+        border:             1px solid #353535;
+        color:              #fff;  
+
+        a, strong { color: #fff; }
+        a { color: #aaa; }
+        a:hover { color: #fff; }
+ 
+        &:after {
+            border-top-color: #121212;
+        }
+        &:before {
+            border-top-color: #353535;
+        }
+    }
+
+}
+
+/* Fadeup Effect
+--------------------------------------------- */
+
+.js .wte-fade-up {
+    opacity:                            0;
+    overflow:                           hidden;
+    -webkit-animation-duration:         1s;
+    animation-duration:                 1s;
+    -webkit-animation-fill-mode:        both;
+    animation-fill-mode:                both;
+    -webkit-animation-timing-function:  ease-in-out;
+    animation-timing-function:          ease-in-out;
+}
+
+@-webkit-keyframes fadeInUp {
+    from { opacity:         0; -webkit-transform: translateY(20px); }
+    to { opacity:           1; -webkit-transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+    from { opacity:         0; transform: translateY(20px); }
+    to { opacity:           1; transform: translateY(0); }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name:         fadeInUp;
+}
